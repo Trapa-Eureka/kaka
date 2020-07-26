@@ -1,0 +1,33 @@
+{
+  "name": "kaka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Trapa-Eureka/kaka",
+  "author": "JINHO SON <1982gaya@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "babelify": "^10.0.0",
+    "browserslist": "^4.13.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-image": "^6.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "browserslist": {
+    "browsers": [
+      "last 2 versions"
+    ]
+  }
+}
